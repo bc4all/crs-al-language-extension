@@ -4,7 +4,8 @@
         "body": [
             "permissionset ${1:Id} ${2:MyPermissionSet}",
             "{",
-            "\tAssignable = ${3|true,false|};",
+			"\tCaption = '${3:Caption}';",
+            "\tAssignable = ${4|true,false|};",
             "\tPermissions = ",
             "\t\t${4|tabledata,codeunit,page,query,report,system,xmlport,table|} ${6:ObjectName} = ${7:ObjectPermissions};",
             "}"
