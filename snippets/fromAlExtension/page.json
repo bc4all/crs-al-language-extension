@@ -60,7 +60,9 @@
         "body": [
             "action(${1:ActionName})",
             "{",
-            "\tApplicationArea = ${2|All,Basic,Suite,Advanced|};",
+            "\tCaption = '${13:ActionCaption}';",
+			"\tToolTip = '${14:ActionToolTip}';",
+			"\tImage = ${15:ActionImage};",
             "\t",
             "\ttrigger OnAction()",
             "\tbegin",
