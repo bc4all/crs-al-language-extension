@@ -4,8 +4,9 @@
         "body": [
             "enumextension ${1:Id} ${2:MyEnumExtension} extends ${3:MyTargetEnum}",
             "{",
-            "\tvalue(${4:ValueId}; ${0:MyValue})",
+            "\tvalue(${4:ValueId}; \"${0:MyValue}\")",
             "\t{",
+			"\t\tCaption = '${0:MyValue}';"
             "\t}",
             "}"
         ],
