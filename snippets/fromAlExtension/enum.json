@@ -1,6 +1,6 @@
 {
     "Snippet: Enum": {
-        "prefix": "tenumwaldokib",
+        "prefix": "tenumwaldo",
         "body": [
             "enum ${1:id} ${2:MyEnum}",
             "{",
@@ -15,7 +15,7 @@
         "description": "Snippet: Enum"
     },
     "Snippet: Enum Value": {
-        "prefix": "tenumvaluewaldokib",
+        "prefix": "tenumvaluewaldo",
         "body": [
             "value(${1:ValueId}; \"${0:MyValue}\")",
             "{",
